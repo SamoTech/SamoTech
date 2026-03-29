@@ -61,12 +61,18 @@ I build practical AI systems and automation tools that solve real problems — n
 
 ---
 
-## GitHub Stats
+## GitHub Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SamoTech&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" height="160" />
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamoTech&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=1800" height="160" />
+[![SamoTech's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=SamoTech&theme=tokyo-night&hide_border=true&area=true)](https://github.com/SamoTech)
+
+</div>
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Repos-17-5b8def?style=flat-square&logo=github)
+![Contributions](https://img.shields.io/badge/Contributions%20(2026)-926-4caf7d?style=flat-square&logo=github)
+![Member Since](https://img.shields.io/badge/Member%20Since-2013-f0a500?style=flat-square&logo=github)
 
 </div>
