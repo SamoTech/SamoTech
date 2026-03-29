@@ -8,6 +8,7 @@
 [![Twitter](https://img.shields.io/badge/@OssamaHashim-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/OssamaHashim)
 [![GitHub followers](https://img.shields.io/github/followers/SamoTech?style=flat-square&color=5b8def)](https://github.com/SamoTech)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:samo.hossam@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=SamoTech&style=flat-square&color=5b8def)](https://github.com/SamoTech)
 
 </div>
 
@@ -64,13 +65,8 @@ I build practical AI systems and automation tools that solve real problems — n
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SamoTech&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamoTech&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="160" />
-
-</div>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=SamoTech&style=flat-square&color=5b8def)
+<img src="https://github-readme-stats.vercel.app/api?username=SamoTech&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" height="160" />
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamoTech&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=1800" height="160" />
 
 </div>
