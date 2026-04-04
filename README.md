@@ -71,8 +71,8 @@ I build practical AI systems and automation tools that solve real problems — n
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Repos-17-5b8def?style=flat-square&logo=github)
-![Contributions](https://img.shields.io/badge/Contributions%20(2026)-926-4caf7d?style=flat-square&logo=github)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/SamoTech&query=$.public_repos&label=Repos&style=flat-square&color=5b8def&logo=github)
+![GitHub Contributions](https://img.shields.io/github/commit-activity/y/SamoTech/SamoTech?style=flat-square&color=4caf7d&logo=github&label=Contributions%20(2026))
 ![Member Since](https://img.shields.io/badge/Member%20Since-2013-f0a500?style=flat-square&logo=github)
 
 </div>
