@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/SamoTech/SamoTech/main/docs/assets/banner.svg" alt="SamoTech banner" width="900"/></p>
+
 <div align="center">
 
 # Hey, I'm Ossama 👋
