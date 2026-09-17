@@ -1,7 +1,7 @@
 {
-  "name": "Ossama Hashim — Developer & Builder",
+  "name": "Ossama Hashim — IT Manager & AI Engineer",
   "short_name": "SamoTech",
-  "description": "Full-stack developer & builder. AI agents, network tools, encrypted apps, DevOps. Based in Cairo, Egypt.",
+  "description": "Ossama Hashim — IT Manager working across AI engineering, infrastructure, networks, automation and software engineering. Based in Cairo, Egypt.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0e0e0c",
@@ -20,5 +20,5 @@
       "type": "image/png"
     }
   ],
-  "categories": ["productivity", "developer tools", "portfolio"]
+  "categories": ["productivity", "developer tools", "business", "portfolio"]
 }
