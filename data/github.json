@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T16:59:49.624Z",
+  "generatedAt": "2026-09-17T18:13:41.366Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
@@ -13,6 +13,27 @@
   },
   "repositories": [
     {
+      "name": "skills-tree",
+      "fullName": "SamoTech/skills-tree",
+      "description": "The universal, platform-agnostic skills and capability registry for AI agents — mapping capabilities, skills, implementations, dependencies, evidence, and platform adapters across agent ecosystems.",
+      "url": "https://github.com/SamoTech/skills-tree",
+      "homepage": "https://samotech.github.io/skills-tree/",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "markdown",
+        "md",
+        "memory-management",
+        "skills"
+      ],
+      "updatedAt": "2026-09-17T18:03:27Z",
+      "pushedAt": "2026-09-17T18:03:21Z"
+    },
+    {
       "name": "SamoTech",
       "fullName": "SamoTech/SamoTech",
       "description": "GitHub profile README",
@@ -22,8 +43,8 @@
       "stars": 2,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-09-17T15:22:37Z",
-      "pushedAt": "2026-09-17T15:22:33Z"
+      "updatedAt": "2026-09-17T16:59:55Z",
+      "pushedAt": "2026-09-17T16:59:51Z"
     },
     {
       "name": "samotech.github.io",
@@ -162,27 +183,6 @@
       "topics": [],
       "updatedAt": "2026-08-25T17:28:51Z",
       "pushedAt": "2026-08-25T17:25:48Z"
-    },
-    {
-      "name": "skills-tree",
-      "fullName": "SamoTech/skills-tree",
-      "description": "🌳 A comprehensive collection of all skills available for AI agents and computer-use models — perception, reasoning, memory, code, tool-use, multimodal, orchestration, and more.",
-      "url": "https://github.com/SamoTech/skills-tree",
-      "homepage": "https://samotech.github.io/skills-tree/",
-      "language": "Python",
-      "stars": 2,
-      "forks": 0,
-      "topics": [
-        "agent",
-        "ai",
-        "ai-agents",
-        "markdown",
-        "md",
-        "memory-management",
-        "skills"
-      ],
-      "updatedAt": "2026-08-20T11:33:48Z",
-      "pushedAt": "2026-09-17T16:59:27Z"
     },
     {
       "name": "ebay-store",
