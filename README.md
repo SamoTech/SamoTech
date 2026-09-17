@@ -92,7 +92,7 @@ I use GitHub as a practical engineering workspace for building and validating:
 
 <div align="center">
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SamoTech&theme=tokyo-night&hide_border=true&area=true)](https://github.com/SamoTech)
+[![GitHub Activity Graph](https://raw.githubusercontent.com/SamoTech/SamoTech/main/docs/assets/activity-graph.svg)](https://github.com/SamoTech)
 
 </div>
 
