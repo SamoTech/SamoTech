@@ -20,6 +20,11 @@ jobs:
       - name: Sync live GitHub data
         run: node scripts/sync-github-profile.mjs
 
+      - name: Generate local activity graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-activity-graph.mjs
+
       - name: Render portfolio from GitHub data
         run: node scripts/render-github-profile.mjs
 
@@ -27,6 +32,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/github.json index.html
+          git add data/github.json docs/assets/activity-graph.svg index.html
           git diff --cached --quiet || git commit -m "chore: sync portfolio from GitHub"
           git push
