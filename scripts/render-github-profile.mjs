@@ -7,6 +7,7 @@ const repos = (data.repositories || [])
 const profile = data.profile || {};
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const md = value => String(value ?? '').replace(/\|/g, '\\|').replace(/[\r\n]+/g, ' ').trim();
 const title = esc(profile.name || profile.login || 'SamoTech');
 const bio = esc(profile.bio || '');
 const repoCount = repos.length;
@@ -65,29 +66,41 @@ const projects = `<section class="section" id="projects" aria-labelledby="projec
   </div>
 </section>`;
 
-let html = await fs.readFile('index.html', 'utf8');
+const readmeProjects = `${start}
+## Selected Projects
 
+> Top 20 repositories by last updated date. This section is generated automatically from GitHub and refreshed by the profile sync workflow.
+
+| Project | Last Updated | Language | Stars |
+|---|---|---|---:|
+${featuredRepos.map(r => `| [**${md(r.name)}**](${r.url}) | ${r.updatedAt ? new Date(r.updatedAt).toISOString().slice(0, 10) : 'N/A'} | ${md(r.language || '—')} | ${r.stars || 0} |`).join('\n')}
+
+_The table is generated from \`data/github.json\`; repositories are sorted by GitHub \`updated_at\`, with forks and archived repositories excluded._
+
+${end}`;
+
+let html = await fs.readFile('index.html', 'utf8');
 const heroStatsStart = html.indexOf('<div class="hero-stats reveal r4">');
 if (heroStatsStart !== -1) {
   const heroStatsEnd = html.indexOf('</div>\n      </div>\n    </section>', heroStatsStart);
-  if (heroStatsEnd !== -1) {
-    html = html.slice(0, heroStatsStart) + stats + html.slice(heroStatsEnd + '</div>'.length);
-  }
+  if (heroStatsEnd !== -1) html = html.slice(0, heroStatsStart) + stats + html.slice(heroStatsEnd + '</div>'.length);
 }
-
 const dynamicRegex = new RegExp(`${start}[\\s\\S]*?${end}`);
-if (dynamicRegex.test(html)) {
-  html = html.replace(dynamicRegex, `${start}\n${projects}\n${end}`);
-} else {
+if (dynamicRegex.test(html)) html = html.replace(dynamicRegex, `${start}\n${projects}\n${end}`);
+else {
   const projectsRegex = /<section class="section" id="projects"[\s\S]*?<\/section>/;
   if (!projectsRegex.test(html)) throw new Error('Projects section not found in index.html');
   html = html.replace(projectsRegex, `${start}\n${projects}\n${end}`);
 }
-
 html = html.replace(/<title>[^<]*<\/title>/, `<title>${title} — GitHub &amp; Open Source</title>`);
 html = html.replace(/<meta name="description" content="[^"]*" \/>/, `<meta name="description" content="${bio}" />`);
 html = html.replace(/<meta property="og:title" content="[^"]*" \/>/, `<meta property="og:title" content="${title} — GitHub &amp; Open Source" />`);
 html = html.replace(/<meta name="twitter:title" content="[^"]*" \/>/, `<meta name="twitter:title" content="${title} — GitHub &amp; Open Source" />`);
-
 await fs.writeFile('index.html', html);
-console.log(`Rendered top ${featuredRepos.length} of ${repoCount} repositories into index.html.`);
+
+let readme = await fs.readFile('README.md', 'utf8');
+if (!dynamicRegex.test(readme)) throw new Error('README.md is missing GITHUB-DYNAMIC markers');
+readme = readme.replace(dynamicRegex, readmeProjects);
+await fs.writeFile('README.md', readme);
+
+console.log(`Rendered top ${featuredRepos.length} of ${repoCount} repositories into index.html and README.md.`);
