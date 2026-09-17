@@ -30,23 +30,37 @@ I am less interested in collecting technologies and more interested in using the
 
 ---
 
+<!-- GITHUB-DYNAMIC:START -->
 ## Selected Projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**DevLens**](https://github.com/SamoTech/devlens) | Live GitHub repository health analysis across multiple engineering signals | Next.js · Upstash Redis · GitHub API |
-| [**Notevo**](https://github.com/SamoTech/notevo) | Private encrypted Markdown notes with client-side protection | Next.js · Supabase · TypeScript |
-| [**MikroTik Blocker**](https://github.com/SamoTech/mikrotik-blocker) | Generates RouterOS blocking rules with domain and BGP/ASN resolution | React · Node.js |
-| [**Wazivo**](https://github.com/SamoTech/Wazivo) | AI resume analysis and ATS rewriting for Arabic job seekers | Next.js · Python · Groq |
-| [**opsai**](https://github.com/SamoTech/opsai) | AI DevOps assistant for CI/CD failures and troubleshooting | Python · LangGraph |
-| [**memoryos**](https://github.com/SamoTech/memoryos) | Local-first persistent memory layer for AI assistants | Python |
-| [**DRIXL**](https://github.com/SamoTech/DRIXL) | Compact communication protocol for multi-agent systems | Python |
-| [**mcp-atlas**](https://github.com/SamoTech/mcp-atlas) | Registry and documentation layer for real-world MCP deployments | TypeScript |
-| [**Farik**](https://github.com/SamoTech/Farik) | Open-source HR system for small teams | React · JavaScript |
-| [**SamoTech IPTV Player**](https://github.com/SamoTech/samotech-iptv-player) | Provider-agnostic IPTV desktop player and playback tooling | Python · PySide6 · libVLC |
-| [**MikroTik Telegram Bot**](https://github.com/SamoTech/mikrotik-telegram-bot) | Router control and network operations through Telegram | Python · MikroTik |
+> Top 20 repositories by last updated date. This section is generated automatically from GitHub and refreshed by the profile sync workflow.
 
-This list is intentionally selective. My repositories cover a wider range of experiments, utilities and production-oriented systems.
+| Project | Last Updated | Language | Stars |
+|---|---|---|---:|
+| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-09-17 | HTML | 2 |
+| [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-09-17 | HTML | 2 |
+| [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-09-17 | Python | 2 |
+| [**CI-Detective**](https://github.com/SamoTech/CI-Detective) | 2026-09-14 | Python | 0 |
+| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-09-14 | Python | 0 |
+| [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-09-11 | Python | 0 |
+| [**Enigma2-Universal-Panel**](https://github.com/SamoTech/Enigma2-Universal-Panel) | 2026-08-29 | Shell | 0 |
+| [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-08-26 | JavaScript | 7 |
+| [**samo-iptv-player**](https://github.com/SamoTech/samo-iptv-player) | 2026-08-25 | Dart | 0 |
+| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-08-20 | Python | 2 |
+| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-08-17 | TypeScript | 2 |
+| [**devlens**](https://github.com/SamoTech/devlens) | 2026-08-15 | TypeScript | 2 |
+| [**memoryos**](https://github.com/SamoTech/memoryos) | 2026-08-02 | Python | 2 |
+| [**Farik**](https://github.com/SamoTech/Farik) | 2026-07-29 | JavaScript | 3 |
+| [**PolicyForge**](https://github.com/SamoTech/PolicyForge) | 2026-06-10 | TypeScript | 0 |
+| [**Wazivo**](https://github.com/SamoTech/Wazivo) | 2026-06-10 | TypeScript | 2 |
+| [**ai-model-router**](https://github.com/SamoTech/ai-model-router) | 2026-06-10 | JavaScript | 0 |
+| [**AgentHub**](https://github.com/SamoTech/AgentHub) | 2026-06-10 | JavaScript | 2 |
+| [**auto-infra-doctor**](https://github.com/SamoTech/auto-infra-doctor) | 2026-06-03 | HTML | 1 |
+| [**ai-agents-mega-repo**](https://github.com/SamoTech/ai-agents-mega-repo) | 2026-04-26 | TypeScript | 0 |
+
+_The table is generated from `data/github.json`; the source repository list is sorted by GitHub `updated_at`, with forks and archived repositories excluded._
+
+<!-- GITHUB-DYNAMIC:END -->
 
 ---
 
