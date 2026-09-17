@@ -33,13 +33,12 @@ const cards = repos.map((r, i) => {
 
 const start = '<!-- GITHUB-DYNAMIC:START -->';
 const end = '<!-- GITHUB-DYNAMIC:END -->';
-const dynamic = `${start}
-<div class="hero-stats reveal r4">
+const stats = `<div class="hero-stats reveal r4">
   <div><div class="stat-val">${profile.publicRepos ?? repoCount}</div><div class="stat-lbl">Public repositories</div></div>
   <div><div class="stat-val">${years}yr</div><div class="stat-lbl">On GitHub</div></div>
   <div><div class="stat-val">${profile.followers ?? 0}</div><div class="stat-lbl">Followers</div></div>
-</div>
-<section class="section" id="projects" aria-labelledby="projects-heading">
+</div>`;
+const projects = `<section class="section" id="projects" aria-labelledby="projects-heading">
   <div class="wrap">
     <p class="sec-label">Projects</p>
     <h2 class="sec-title" id="projects-heading">Things I've built</h2>
@@ -55,13 +54,30 @@ const dynamic = `${start}
     <div class="proj-grid" id="proj-grid">${cards}</div>
     <div style="margin-top:2.5rem;text-align:center"><a href="${esc(profile.htmlUrl || 'https://github.com/SamoTech?tab=repositories')}" target="_blank" rel="noopener noreferrer" class="btn-ghost">See all repositories on GitHub →</a></div>
   </div>
-</section>
-${end}`;
+</section>`;
 
 let html = await fs.readFile('index.html', 'utf8');
 const dynamicRegex = new RegExp(`${start}[\\s\\S]*?${end}`);
-if (dynamicRegex.test(html)) html = html.replace(dynamicRegex, dynamic);
-else throw new Error('Dynamic GitHub markers are missing from index.html');
+
+if (dynamicRegex.test(html)) {
+  html = html.replace(dynamicRegex, `${start}\n${stats}\n${projects}\n${end}`);
+} else {
+  const projectsRegex = /<section class="section" id="projects"[\s\S]*?<\/section>/;
+  if (!projectsRegex.test(html)) throw new Error('Projects section not found in index.html');
+  html = html.replace(projectsRegex, `${start}\n${stats}\n${projects}\n${end}`);
+
+  // The replacement above covers the Projects section. Replace the original
+  // hero stats separately by locating its block through the surrounding hero
+  // section rather than relying on nested-div regex matching.
+  const heroStatsStart = html.indexOf('<div class="hero-stats reveal r4">');
+  const dynamicStatsStart = html.indexOf(`${start}\n${stats}`) + start.length + 1;
+  if (heroStatsStart !== -1 && heroStatsStart < dynamicStatsStart) {
+    const heroStatsEnd = html.indexOf('</div>\n      </div>\n    </section>', heroStatsStart);
+    if (heroStatsEnd !== -1) {
+      html = html.slice(0, heroStatsStart) + stats + html.slice(heroStatsEnd + '</div>'.length);
+    }
+  }
+}
 
 html = html.replace(/<title>[^<]*<\/title>/, `<title>${title} — GitHub &amp; Open Source</title>`);
 html = html.replace(/<meta name="description" content="[^"]*" \/>/, `<meta name="description" content="${bio}" />`);
