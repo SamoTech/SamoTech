@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:13:41.366Z",
+  "generatedAt": "2026-09-17T18:17:55.592Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
@@ -12,6 +12,19 @@
     "createdAt": "2013-08-22T10:20:56Z"
   },
   "repositories": [
+    {
+      "name": "SamoTech",
+      "fullName": "SamoTech/SamoTech",
+      "description": "GitHub profile README",
+      "url": "https://github.com/SamoTech/SamoTech",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-09-17T18:17:51Z",
+      "pushedAt": "2026-09-17T18:17:47Z"
+    },
     {
       "name": "skills-tree",
       "fullName": "SamoTech/skills-tree",
@@ -31,20 +44,7 @@
         "skills"
       ],
       "updatedAt": "2026-09-17T18:03:27Z",
-      "pushedAt": "2026-09-17T18:03:21Z"
-    },
-    {
-      "name": "SamoTech",
-      "fullName": "SamoTech/SamoTech",
-      "description": "GitHub profile README",
-      "url": "https://github.com/SamoTech/SamoTech",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-09-17T16:59:55Z",
-      "pushedAt": "2026-09-17T16:59:51Z"
+      "pushedAt": "2026-09-17T18:17:45Z"
     },
     {
       "name": "samotech.github.io",
