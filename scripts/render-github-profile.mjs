@@ -1,16 +1,19 @@
 import fs from 'node:fs/promises';
 
 const data = JSON.parse(await fs.readFile('data/github.json', 'utf8'));
-const repos = data.repositories || [];
+const repos = (data.repositories || [])
+  .filter(r => !r.fork && !r.archived)
+  .sort((a, b) => new Date(b.updatedAt || 0) - new Date(a.updatedAt || 0));
 const profile = data.profile || {};
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const title = esc(profile.name || profile.login || 'SamoTech');
 const bio = esc(profile.bio || '');
 const repoCount = repos.length;
+const featuredRepos = repos.slice(0, 20);
 const years = Math.max(1, new Date().getUTCFullYear() - new Date(profile.createdAt || Date.now()).getUTCFullYear());
 
-const cards = repos.map((r, i) => {
+const classify = r => {
   const cats = [];
   const text = `${r.name} ${r.description || ''} ${(r.topics || []).join(' ')}`.toLowerCase();
   if (/ai|agent|llm|gemini|gpt|model|memory|langgraph/.test(text)) cats.push('ai');
@@ -19,14 +22,20 @@ const cards = repos.map((r, i) => {
   if (/cli|tool|automation|github-action|script|registry/.test(text)) cats.push('tools');
   if (/enigma|iptv|embedded|stb/.test(text)) cats.push('embedded');
   if (!cats.length) cats.push('tools');
+  return cats;
+};
+
+const cards = featuredRepos.map((r, i) => {
+  const cats = classify(r);
   const tags = (r.topics || []).slice(0, 4).map(t => `<span class="card-tag">${esc(t)}</span>`).join('');
+  const updated = r.updatedAt ? new Date(r.updatedAt).toISOString().slice(0, 10) : '';
   return `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" class="card ${i === 0 ? 'card--feat' : ''}" data-categories="${cats.join(' ')}">
     <div class="card-body">
       <div class="card-meta"><span class="card-lang">${esc(r.language || 'Repository')}</span><span class="card-stars">★ ${r.stars || 0}</span></div>
       <h3 class="card-title">${esc(r.name)}</h3>
       <p class="card-desc">${esc(r.description || 'Open-source project by SamoTech.')}</p>
       ${tags ? `<div class="card-tags">${tags}</div>` : ''}
-      <span class="card-link">View project →</span>
+      <span class="card-link">Updated ${esc(updated)} · View project →</span>
     </div>
   </a>`;
 }).join('\n');
@@ -41,10 +50,10 @@ const stats = `<div class="hero-stats reveal r4">
 const projects = `<section class="section" id="projects" aria-labelledby="projects-heading">
   <div class="wrap">
     <p class="sec-label">Projects</p>
-    <h2 class="sec-title" id="projects-heading">Things I've built</h2>
-    <p class="sec-desc">${repoCount} public repositories, loaded from GitHub. This section updates automatically.</p>
+    <h2 class="sec-title" id="projects-heading">Selected Projects</h2>
+    <p class="sec-desc">Top 20 repositories by last updated date, loaded directly from GitHub and refreshed automatically.</p>
     <div class="filter-bar" role="group" aria-label="Filter by category">
-      <button class="filter-btn active" data-filter="all">All (${repoCount})</button>
+      <button class="filter-btn active" data-filter="all">All (${featuredRepos.length})</button>
       <button class="filter-btn" data-filter="ai">AI &amp; Agents</button>
       <button class="filter-btn" data-filter="web">Web Apps</button>
       <button class="filter-btn" data-filter="network">Network / Infra</button>
@@ -58,7 +67,6 @@ const projects = `<section class="section" id="projects" aria-labelledby="projec
 
 let html = await fs.readFile('index.html', 'utf8');
 
-// Update the legacy hero stats block safely on every run.
 const heroStatsStart = html.indexOf('<div class="hero-stats reveal r4">');
 if (heroStatsStart !== -1) {
   const heroStatsEnd = html.indexOf('</div>\n      </div>\n    </section>', heroStatsStart);
@@ -82,4 +90,4 @@ html = html.replace(/<meta property="og:title" content="[^"]*" \/>/, `<meta prop
 html = html.replace(/<meta name="twitter:title" content="[^"]*" \/>/, `<meta name="twitter:title" content="${title} — GitHub &amp; Open Source" />`);
 
 await fs.writeFile('index.html', html);
-console.log(`Rendered ${repoCount} repositories into index.html.`);
+console.log(`Rendered top ${featuredRepos.length} of ${repoCount} repositories into index.html.`);
