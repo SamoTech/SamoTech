@@ -514,5 +514,6 @@
       fbtns.forEach(function(b){b.addEventListener('click',function(){var f=b.getAttribute('data-filter');fbtns.forEach(function(x){x.classList.remove('active');});b.classList.add('active');cards.forEach(function(c){var cats=(c.getAttribute('data-categories')||'').split(' ');if(f==='all'||cats.includes(f)){c.classList.remove('hidden');}else{c.classList.add('hidden');}});});});
     })();
   </script>
+  <script src="./scripts/github-profile-runtime.js" defer></script>
 </body>
 </html>
