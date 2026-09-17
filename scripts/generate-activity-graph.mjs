@@ -13,8 +13,8 @@ const query = `
 query($login:String!, $from:DateTime!, $to:DateTime!) {
   user(login:$login) {
     contributionsCollection(from:$from, to:$to) {
-      totalContributions
       contributionCalendar {
+        totalContributions
         weeks {
           contributionDays { date contributionCount }
         }
@@ -52,7 +52,6 @@ const top = 38;
 const cell = 12;
 const gap = 3;
 const step = cell + gap;
-const graphWidth = Math.min(53 * step, width - left - 20);
 const colors = ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'];
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
