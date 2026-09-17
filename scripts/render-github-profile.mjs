@@ -57,26 +57,23 @@ const projects = `<section class="section" id="projects" aria-labelledby="projec
 </section>`;
 
 let html = await fs.readFile('index.html', 'utf8');
-const dynamicRegex = new RegExp(`${start}[\\s\\S]*?${end}`);
 
+// Update the legacy hero stats block safely on every run.
+const heroStatsStart = html.indexOf('<div class="hero-stats reveal r4">');
+if (heroStatsStart !== -1) {
+  const heroStatsEnd = html.indexOf('</div>\n      </div>\n    </section>', heroStatsStart);
+  if (heroStatsEnd !== -1) {
+    html = html.slice(0, heroStatsStart) + stats + html.slice(heroStatsEnd + '</div>'.length);
+  }
+}
+
+const dynamicRegex = new RegExp(`${start}[\\s\\S]*?${end}`);
 if (dynamicRegex.test(html)) {
-  html = html.replace(dynamicRegex, `${start}\n${stats}\n${projects}\n${end}`);
+  html = html.replace(dynamicRegex, `${start}\n${projects}\n${end}`);
 } else {
   const projectsRegex = /<section class="section" id="projects"[\s\S]*?<\/section>/;
   if (!projectsRegex.test(html)) throw new Error('Projects section not found in index.html');
-  html = html.replace(projectsRegex, `${start}\n${stats}\n${projects}\n${end}`);
-
-  // The replacement above covers the Projects section. Replace the original
-  // hero stats separately by locating its block through the surrounding hero
-  // section rather than relying on nested-div regex matching.
-  const heroStatsStart = html.indexOf('<div class="hero-stats reveal r4">');
-  const dynamicStatsStart = html.indexOf(`${start}\n${stats}`) + start.length + 1;
-  if (heroStatsStart !== -1 && heroStatsStart < dynamicStatsStart) {
-    const heroStatsEnd = html.indexOf('</div>\n      </div>\n    </section>', heroStatsStart);
-    if (heroStatsEnd !== -1) {
-      html = html.slice(0, heroStatsStart) + stats + html.slice(heroStatsEnd + '</div>'.length);
-    }
-  }
+  html = html.replace(projectsRegex, `${start}\n${projects}\n${end}`);
 }
 
 html = html.replace(/<title>[^<]*<\/title>/, `<title>${title} — GitHub &amp; Open Source</title>`);
