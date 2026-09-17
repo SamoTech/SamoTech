@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-17T15:22:31.469Z",
+  "generatedAt": "2026-09-17T16:59:49.624Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
     "bio": "I build practical AI systems, automation workflows, and scalable backend architectures.\r\n\r\nMy work focuses on production-ready agent orchestration, marketplace ",
     "avatar": "https://avatars.githubusercontent.com/u/5285768?v=4",
     "htmlUrl": "https://github.com/SamoTech",
-    "followers": 173,
+    "followers": 172,
     "following": 232,
     "publicRepos": 38,
     "createdAt": "2013-08-22T10:20:56Z"
@@ -22,8 +22,8 @@
       "stars": 2,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-09-17T15:22:24Z",
-      "pushedAt": "2026-09-17T15:22:20Z"
+      "updatedAt": "2026-09-17T15:22:37Z",
+      "pushedAt": "2026-09-17T15:22:33Z"
     },
     {
       "name": "samotech.github.io",
@@ -182,7 +182,7 @@
         "skills"
       ],
       "updatedAt": "2026-08-20T11:33:48Z",
-      "pushedAt": "2026-08-20T11:33:09Z"
+      "pushedAt": "2026-09-17T16:59:27Z"
     },
     {
       "name": "ebay-store",
