@@ -20,25 +20,13 @@ jobs:
       - name: Sync live GitHub data
         run: node scripts/sync-github-profile.mjs
 
-      - name: Make portfolio project section dynamic
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          p = Path('index.html')
-          s = p.read_text(encoding='utf-8')
-          tag = '<script src="./scripts/github-profile-runtime.js" defer></script>'
-          if tag not in s:
-              marker = '</body>'
-              if marker not in s:
-                  raise SystemExit('Could not find </body> in index.html')
-              s = s.replace(marker, f'  {tag}\n{marker}', 1)
-              p.write_text(s, encoding='utf-8')
-          PY
+      - name: Render portfolio from GitHub data
+        run: node scripts/render-github-profile.mjs
 
-      - name: Commit generated changes
+      - name: Commit generated site data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/github.json index.html scripts/github-profile-runtime.js
-          git diff --cached --quiet || git commit -m "chore: sync dynamic GitHub portfolio"
+          git add data/github.json index.html
+          git diff --cached --quiet || git commit -m "chore: sync portfolio from GitHub"
           git push
