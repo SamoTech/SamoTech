@@ -3,7 +3,8 @@ name: Sync GitHub Profile Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */6 * * *'
+    # Every Monday at 06:17 UTC
+    - cron: '17 6 * * 1'
   push:
     branches: [main]
 
@@ -25,13 +26,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/generate-activity-graph.mjs
 
-      - name: Render portfolio from GitHub data
+      - name: Render portfolio and profile README
         run: node scripts/render-github-profile.mjs
 
       - name: Commit generated site data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/github.json docs/assets/activity-graph.svg index.html
-          git diff --cached --quiet || git commit -m "chore: sync portfolio from GitHub"
+          git add data/github.json docs/assets/activity-graph.svg index.html README.md
+          git diff --cached --quiet || git commit -m "chore: sync portfolio from GitHub [skip ci]"
           git push
