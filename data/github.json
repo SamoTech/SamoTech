@@ -1,17 +1,51 @@
 {
-  "generatedAt": "2026-09-17T18:18:14.230Z",
+  "generatedAt": "2026-09-18T12:20:57.691Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
     "bio": "I build practical AI systems, automation workflows, and scalable backend architectures.\r\n\r\nMy work focuses on production-ready agent orchestration, marketplace ",
     "avatar": "https://avatars.githubusercontent.com/u/5285768?v=4",
     "htmlUrl": "https://github.com/SamoTech",
-    "followers": 172,
+    "followers": 175,
     "following": 232,
     "publicRepos": 38,
     "createdAt": "2013-08-22T10:20:56Z"
   },
   "repositories": [
+    {
+      "name": "mikrotik-blocker",
+      "fullName": "SamoTech/mikrotik-blocker",
+      "description": "Production-ready web app to block websites on MikroTik routers using IP address lists — with DNS resolution, bulk input, RSC export, and optional API push",
+      "url": "https://github.com/SamoTech/mikrotik-blocker",
+      "homepage": "https://mikrotik-blocker.vercel.app",
+      "language": "JavaScript",
+      "stars": 7,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-09-18T12:12:15Z",
+      "pushedAt": "2026-09-18T12:12:11Z"
+    },
+    {
+      "name": "skills-tree",
+      "fullName": "SamoTech/skills-tree",
+      "description": "The universal, platform-agnostic skills and capability registry for AI agents — mapping capabilities, skills, implementations, dependencies, evidence, and platform adapters across agent ecosystems.",
+      "url": "https://github.com/SamoTech/skills-tree",
+      "homepage": "https://samotech.github.io/skills-tree/",
+      "language": "Python",
+      "stars": 2,
+      "forks": 1,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "markdown",
+        "md",
+        "memory-management",
+        "skills"
+      ],
+      "updatedAt": "2026-09-18T12:03:58Z",
+      "pushedAt": "2026-09-18T12:11:42Z"
+    },
     {
       "name": "SamoTech",
       "fullName": "SamoTech/SamoTech",
@@ -22,29 +56,8 @@
       "stars": 2,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-09-17T18:18:09Z",
-      "pushedAt": "2026-09-17T18:18:05Z"
-    },
-    {
-      "name": "skills-tree",
-      "fullName": "SamoTech/skills-tree",
-      "description": "The universal, platform-agnostic skills and capability registry for AI agents — mapping capabilities, skills, implementations, dependencies, evidence, and platform adapters across agent ecosystems.",
-      "url": "https://github.com/SamoTech/skills-tree",
-      "homepage": "https://samotech.github.io/skills-tree/",
-      "language": "Python",
-      "stars": 2,
-      "forks": 0,
-      "topics": [
-        "agent",
-        "ai",
-        "ai-agents",
-        "markdown",
-        "md",
-        "memory-management",
-        "skills"
-      ],
-      "updatedAt": "2026-09-17T18:03:27Z",
-      "pushedAt": "2026-09-17T18:17:45Z"
+      "updatedAt": "2026-09-17T18:18:19Z",
+      "pushedAt": "2026-09-17T18:18:15Z"
     },
     {
       "name": "samotech.github.io",
@@ -157,19 +170,6 @@
       "topics": [],
       "updatedAt": "2026-08-29T17:25:28Z",
       "pushedAt": "2026-08-29T17:25:25Z"
-    },
-    {
-      "name": "mikrotik-blocker",
-      "fullName": "SamoTech/mikrotik-blocker",
-      "description": "Production-ready web app to block websites on MikroTik routers using IP address lists — with DNS resolution, bulk input, RSC export, and optional API push",
-      "url": "https://github.com/SamoTech/mikrotik-blocker",
-      "homepage": "https://mikrotik-blocker.vercel.app",
-      "language": "JavaScript",
-      "stars": 7,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-08-26T12:06:54Z",
-      "pushedAt": "2026-04-14T15:58:50Z"
     },
     {
       "name": "samo-iptv-player",

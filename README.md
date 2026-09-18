@@ -37,8 +37,9 @@ I am less interested in collecting technologies and more interested in using the
 
 | Project | Last Updated | Language | Stars |
 |---|---|---|---:|
+| [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-09-18 | JavaScript | 7 |
+| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-09-18 | Python | 2 |
 | [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-09-17 | HTML | 2 |
-| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-09-17 | Python | 2 |
 | [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-09-17 | HTML | 2 |
 | [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-09-17 | Python | 2 |
 | [**CI-Detective**](https://github.com/SamoTech/CI-Detective) | 2026-09-14 | Python | 0 |
@@ -46,7 +47,6 @@ I am less interested in collecting technologies and more interested in using the
 | [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-09-11 | Python | 0 |
 | [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-09-10 | Python | 3 |
 | [**Enigma2-Universal-Panel**](https://github.com/SamoTech/Enigma2-Universal-Panel) | 2026-08-29 | Shell | 0 |
-| [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-08-26 | JavaScript | 7 |
 | [**samo-iptv-player**](https://github.com/SamoTech/samo-iptv-player) | 2026-08-25 | Dart | 0 |
 | [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-08-17 | TypeScript | 2 |
 | [**devlens**](https://github.com/SamoTech/devlens) | 2026-08-15 | TypeScript | 2 |
