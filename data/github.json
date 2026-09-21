@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-19T13:49:40.970Z",
+  "generatedAt": "2026-09-21T12:51:14.332Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
     "bio": "I build practical AI systems, automation workflows, and scalable backend architectures.\r\n\r\nMy work focuses on production-ready agent orchestration, marketplace ",
     "avatar": "https://avatars.githubusercontent.com/u/5285768?v=4",
     "htmlUrl": "https://github.com/SamoTech",
-    "followers": 175,
-    "following": 232,
+    "followers": 177,
+    "following": 235,
     "publicRepos": 38,
     "createdAt": "2013-08-22T10:20:56Z"
   },
@@ -22,8 +22,8 @@
       "stars": 2,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-09-19T13:21:29Z",
-      "pushedAt": "2026-09-19T13:21:25Z"
+      "updatedAt": "2026-09-21T12:42:34Z",
+      "pushedAt": "2026-09-21T12:42:30Z"
     },
     {
       "name": "skills-tree",
@@ -43,21 +43,21 @@
         "memory-management",
         "skills"
       ],
-      "updatedAt": "2026-09-19T13:03:02Z",
-      "pushedAt": "2026-09-19T13:02:59Z"
+      "updatedAt": "2026-09-21T10:22:50Z",
+      "pushedAt": "2026-09-21T10:22:46Z"
     },
     {
-      "name": "Enigma2-Universal-Panel",
-      "fullName": "SamoTech/Enigma2-Universal-Panel",
-      "description": null,
-      "url": "https://github.com/SamoTech/Enigma2-Universal-Panel",
-      "homepage": null,
-      "language": "Shell",
+      "name": "RepoSource-Registry",
+      "fullName": "SamoTech/RepoSource-Registry",
+      "description": "RepoSource Registry — an automated, open dataset of notable GitHub repositories, continuously collected, normalized, categorized, and published for developers, researchers, AI agents, and other data consumers.",
+      "url": "https://github.com/SamoTech/RepoSource-Registry",
+      "homepage": "https://repo-source-registry.vercel.app",
+      "language": "Python",
       "stars": 0,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-09-19T13:01:09Z",
-      "pushedAt": "2026-09-19T13:01:05Z"
+      "updatedAt": "2026-09-21T08:19:44Z",
+      "pushedAt": "2026-09-21T08:19:31Z"
     },
     {
       "name": "mikrotik-blocker",
@@ -69,8 +69,21 @@
       "stars": 7,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-09-19T07:58:37Z",
-      "pushedAt": "2026-09-19T09:18:24Z"
+      "updatedAt": "2026-09-20T12:00:37Z",
+      "pushedAt": "2026-09-20T12:02:25Z"
+    },
+    {
+      "name": "Enigma2-Universal-Panel",
+      "fullName": "SamoTech/Enigma2-Universal-Panel",
+      "description": null,
+      "url": "https://github.com/SamoTech/Enigma2-Universal-Panel",
+      "homepage": null,
+      "language": "Shell",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-09-19T19:39:50Z",
+      "pushedAt": "2026-09-19T19:39:45Z"
     },
     {
       "name": "SamoTech",
@@ -82,8 +95,8 @@
       "stars": 2,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-09-18T12:21:03Z",
-      "pushedAt": "2026-09-18T12:20:59Z"
+      "updatedAt": "2026-09-19T13:49:46Z",
+      "pushedAt": "2026-09-19T13:49:42Z"
     },
     {
       "name": "samotech.github.io",
@@ -130,19 +143,6 @@
       "topics": [],
       "updatedAt": "2026-09-14T10:52:29Z",
       "pushedAt": "2026-09-14T19:55:29Z"
-    },
-    {
-      "name": "RepoSource-Registry",
-      "fullName": "SamoTech/RepoSource-Registry",
-      "description": "RepoSource Registry — an automated, open dataset of notable GitHub repositories, continuously collected, normalized, categorized, and published for developers, researchers, AI agents, and other data consumers.",
-      "url": "https://github.com/SamoTech/RepoSource-Registry",
-      "homepage": "https://repo-source-registry.vercel.app",
-      "language": "Python",
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-09-14T08:16:04Z",
-      "pushedAt": "2026-09-14T17:12:53Z"
     },
     {
       "name": "samotech-iptv-player",
