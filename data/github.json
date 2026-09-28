@@ -1,29 +1,36 @@
 {
-  "generatedAt": "2026-09-21T12:51:14.332Z",
+  "generatedAt": "2026-09-28T13:59:01.949Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
     "bio": "I build practical AI systems, automation workflows, and scalable backend architectures.\r\n\r\nMy work focuses on production-ready agent orchestration, marketplace ",
     "avatar": "https://avatars.githubusercontent.com/u/5285768?v=4",
     "htmlUrl": "https://github.com/SamoTech",
-    "followers": 177,
-    "following": 235,
+    "followers": 183,
+    "following": 236,
     "publicRepos": 38,
     "createdAt": "2013-08-22T10:20:56Z"
   },
   "repositories": [
     {
-      "name": "ebay-store",
-      "fullName": "SamoTech/ebay-store",
-      "description": null,
-      "url": "https://github.com/SamoTech/ebay-store",
-      "homepage": "https://ebay-store.vercel.app",
-      "language": "TypeScript",
-      "stars": 2,
+      "name": "DRIXL",
+      "fullName": "SamoTech/DRIXL",
+      "description": "Compressed inter-agent communication protocol for multi-agent AI systems. Cut token costs by 80% with dual format support (compact for production, structured XML for development).",
+      "url": "https://github.com/SamoTech/DRIXL",
+      "homepage": "https://pypi.org/project/drixl/",
+      "language": "Python",
+      "stars": 3,
       "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-09-21T12:42:34Z",
-      "pushedAt": "2026-09-21T12:42:30Z"
+      "topics": [
+        "agent-communication",
+        "cost-optimization",
+        "developer-tools",
+        "inter-agent",
+        "multi-agent",
+        "token-optimization"
+      ],
+      "updatedAt": "2026-09-28T11:35:59Z",
+      "pushedAt": "2026-04-14T15:16:49Z"
     },
     {
       "name": "skills-tree",
@@ -33,7 +40,7 @@
       "homepage": "https://samotech.github.io/skills-tree/",
       "language": "Python",
       "stars": 2,
-      "forks": 1,
+      "forks": 2,
       "topics": [
         "agent",
         "ai",
@@ -43,8 +50,8 @@
         "memory-management",
         "skills"
       ],
-      "updatedAt": "2026-09-21T10:22:50Z",
-      "pushedAt": "2026-09-21T10:22:46Z"
+      "updatedAt": "2026-09-28T11:24:30Z",
+      "pushedAt": "2026-09-28T11:24:25Z"
     },
     {
       "name": "RepoSource-Registry",
@@ -56,8 +63,53 @@
       "stars": 0,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-09-21T08:19:44Z",
-      "pushedAt": "2026-09-21T08:19:31Z"
+      "updatedAt": "2026-09-28T09:05:14Z",
+      "pushedAt": "2026-09-28T09:05:01Z"
+    },
+    {
+      "name": "ebay-store",
+      "fullName": "SamoTech/ebay-store",
+      "description": null,
+      "url": "https://github.com/SamoTech/ebay-store",
+      "homepage": "https://ebay-store.vercel.app",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-09-27T19:16:09Z",
+      "pushedAt": "2026-09-27T19:34:57Z"
+    },
+    {
+      "name": "devlens",
+      "fullName": "SamoTech/devlens",
+      "description": "🔭 Free GitHub Action that scores your repo health, auto-updates your README with a live badge, and sends weekly dev analytics — zero cost, no seat limits.",
+      "url": "https://github.com/SamoTech/devlens",
+      "homepage": "https://devlens-io.vercel.app/",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "topics": [
+        "ai-tools",
+        "automation",
+        "developer-tools",
+        "devops",
+        "github-actions"
+      ],
+      "updatedAt": "2026-09-26T19:49:30Z",
+      "pushedAt": "2026-09-27T05:24:27Z"
+    },
+    {
+      "name": "SamoTech",
+      "fullName": "SamoTech/SamoTech",
+      "description": "GitHub profile README",
+      "url": "https://github.com/SamoTech/SamoTech",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-09-21T12:51:19Z",
+      "pushedAt": "2026-09-21T12:51:16Z"
     },
     {
       "name": "mikrotik-blocker",
@@ -86,19 +138,6 @@
       "pushedAt": "2026-09-19T19:39:45Z"
     },
     {
-      "name": "SamoTech",
-      "fullName": "SamoTech/SamoTech",
-      "description": "GitHub profile README",
-      "url": "https://github.com/SamoTech/SamoTech",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-09-19T13:49:46Z",
-      "pushedAt": "2026-09-19T13:49:42Z"
-    },
-    {
       "name": "samotech.github.io",
       "fullName": "SamoTech/samotech.github.io",
       "description": "Ossama Hashim — Personal Portfolio & Open Source Projects",
@@ -110,26 +149,6 @@
       "topics": [],
       "updatedAt": "2026-09-17T10:40:58Z",
       "pushedAt": "2026-09-17T10:40:54Z"
-    },
-    {
-      "name": "DRIXL",
-      "fullName": "SamoTech/DRIXL",
-      "description": "Compressed inter-agent communication protocol for multi-agent AI systems. Cut token costs by 80% with dual format support (compact for production, structured XML for development).",
-      "url": "https://github.com/SamoTech/DRIXL",
-      "homepage": "https://pypi.org/project/drixl/",
-      "language": "Python",
-      "stars": 2,
-      "forks": 0,
-      "topics": [
-        "agent-communication",
-        "cost-optimization",
-        "developer-tools",
-        "inter-agent",
-        "multi-agent",
-        "token-optimization"
-      ],
-      "updatedAt": "2026-09-17T06:26:19Z",
-      "pushedAt": "2026-04-14T15:16:49Z"
     },
     {
       "name": "CI-Detective",
@@ -179,7 +198,7 @@
       "homepage": "https://stalker-to-m3u-eta.vercel.app",
       "language": "Python",
       "stars": 3,
-      "forks": 3,
+      "forks": 4,
       "topics": [],
       "updatedAt": "2026-09-10T16:56:45Z",
       "pushedAt": "2026-05-09T03:17:21Z"
@@ -196,25 +215,6 @@
       "topics": [],
       "updatedAt": "2026-08-25T17:28:51Z",
       "pushedAt": "2026-08-25T17:25:48Z"
-    },
-    {
-      "name": "devlens",
-      "fullName": "SamoTech/devlens",
-      "description": "🔭 Free GitHub Action that scores your repo health, auto-updates your README with a live badge, and sends weekly dev analytics — zero cost, no seat limits.",
-      "url": "https://github.com/SamoTech/devlens",
-      "homepage": "https://devlens-io.vercel.app/",
-      "language": "TypeScript",
-      "stars": 2,
-      "forks": 0,
-      "topics": [
-        "ai-tools",
-        "automation",
-        "developer-tools",
-        "devops",
-        "github-actions"
-      ],
-      "updatedAt": "2026-08-15T07:08:45Z",
-      "pushedAt": "2026-09-11T17:22:06Z"
     },
     {
       "name": "memoryos",
