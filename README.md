@@ -37,18 +37,18 @@ I am less interested in collecting technologies and more interested in using the
 
 | Project | Last Updated | Language | Stars |
 |---|---|---|---:|
-| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-10-05 | Python | 3 |
-| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-10-05 | Python | 0 |
+| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-10-12 | Python | 3 |
+| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-10-12 | Python | 1 |
+| [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-10-11 | HTML | 2 |
+| [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-10-11 | JavaScript | 7 |
+| [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-10-10 | Python | 3 |
+| [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-10-09 | Python | 2 |
+| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-10-06 | TypeScript | 2 |
+| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-10-05 | HTML | 2 |
 | [**devlens**](https://github.com/SamoTech/devlens) | 2026-09-30 | Python | 2 |
-| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-09-30 | TypeScript | 2 |
-| [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-09-29 | Python | 1 |
-| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-09-28 | HTML | 2 |
 | [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-09-28 | Python | 3 |
-| [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-09-20 | JavaScript | 7 |
 | [**Enigma2-Universal-Panel**](https://github.com/SamoTech/Enigma2-Universal-Panel) | 2026-09-19 | Shell | 0 |
-| [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-09-17 | HTML | 2 |
 | [**CI-Detective**](https://github.com/SamoTech/CI-Detective) | 2026-09-14 | Python | 0 |
-| [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-09-10 | Python | 3 |
 | [**samo-iptv-player**](https://github.com/SamoTech/samo-iptv-player) | 2026-08-25 | Dart | 0 |
 | [**memoryos**](https://github.com/SamoTech/memoryos) | 2026-08-02 | Python | 2 |
 | [**Farik**](https://github.com/SamoTech/Farik) | 2026-07-29 | JavaScript | 3 |
