@@ -1,17 +1,30 @@
 {
-  "generatedAt": "2026-10-12T15:29:08.401Z",
+  "generatedAt": "2026-10-19T13:19:59.124Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
     "bio": "I build practical AI systems, automation workflows, and scalable backend architectures.\r\n\r\nMy work focuses on production-ready agent orchestration, marketplace ",
     "avatar": "https://avatars.githubusercontent.com/u/5285768?v=4",
     "htmlUrl": "https://github.com/SamoTech",
-    "followers": 187,
+    "followers": 202,
     "following": 248,
     "publicRepos": 39,
     "createdAt": "2013-08-22T10:20:56Z"
   },
   "repositories": [
+    {
+      "name": "RepoSource-Registry",
+      "fullName": "SamoTech/RepoSource-Registry",
+      "description": "RepoSource Registry — an automated, open dataset of notable GitHub repositories, continuously collected, normalized, categorized, and published for developers, researchers, AI agents, and other data consumers.",
+      "url": "https://github.com/SamoTech/RepoSource-Registry",
+      "homepage": "https://repo-source-registry.vercel.app",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-10-19T08:12:17Z",
+      "pushedAt": "2026-10-19T08:12:03Z"
+    },
     {
       "name": "skills-tree",
       "fullName": "SamoTech/skills-tree",
@@ -30,21 +43,47 @@
         "memory-management",
         "skills"
       ],
-      "updatedAt": "2026-10-12T14:04:04Z",
-      "pushedAt": "2026-10-12T14:53:08Z"
+      "updatedAt": "2026-10-19T01:53:24Z",
+      "pushedAt": "2026-10-19T10:28:43Z"
     },
     {
-      "name": "RepoSource-Registry",
-      "fullName": "SamoTech/RepoSource-Registry",
-      "description": "RepoSource Registry — an automated, open dataset of notable GitHub repositories, continuously collected, normalized, categorized, and published for developers, researchers, AI agents, and other data consumers.",
-      "url": "https://github.com/SamoTech/RepoSource-Registry",
-      "homepage": "https://repo-source-registry.vercel.app",
+      "name": "E2ScreenRecorder",
+      "fullName": "SamoTech/E2ScreenRecorder",
+      "description": "Full-featured Enigma2 Screen Recorder plugin — Screenshots (PNG/JPEG/BMP) & Video (MP4/AVI) from /dev/fb0 framebuffer. Built-in WebIF. Python 2.7–3.12+. Zero mandatory deps. All STB SoC families.",
+      "url": "https://github.com/SamoTech/E2ScreenRecorder",
+      "homepage": null,
       "language": "Python",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-10-12T09:41:47Z",
-      "pushedAt": "2026-10-12T09:41:34Z"
+      "updatedAt": "2026-10-17T16:01:39Z",
+      "pushedAt": "2026-04-14T15:59:47Z"
+    },
+    {
+      "name": "ebay-store",
+      "fullName": "SamoTech/ebay-store",
+      "description": null,
+      "url": "https://github.com/SamoTech/ebay-store",
+      "homepage": "https://ebay-store.vercel.app",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-10-12T17:06:24Z",
+      "pushedAt": "2026-10-12T17:06:20Z"
+    },
+    {
+      "name": "SamoTech",
+      "fullName": "SamoTech/SamoTech",
+      "description": "GitHub profile README",
+      "url": "https://github.com/SamoTech/SamoTech",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-10-12T15:29:15Z",
+      "pushedAt": "2026-10-12T15:29:10Z"
     },
     {
       "name": "samotech.github.io",
@@ -113,32 +152,6 @@
       "pushedAt": "2026-09-11T14:42:01Z"
     },
     {
-      "name": "ebay-store",
-      "fullName": "SamoTech/ebay-store",
-      "description": null,
-      "url": "https://github.com/SamoTech/ebay-store",
-      "homepage": "https://ebay-store.vercel.app",
-      "language": "TypeScript",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-10-06T10:57:35Z",
-      "pushedAt": "2026-10-06T10:57:30Z"
-    },
-    {
-      "name": "SamoTech",
-      "fullName": "SamoTech/SamoTech",
-      "description": "GitHub profile README",
-      "url": "https://github.com/SamoTech/SamoTech",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-10-05T14:43:15Z",
-      "pushedAt": "2026-10-05T14:43:10Z"
-    },
-    {
       "name": "devlens",
       "fullName": "SamoTech/devlens",
       "description": "GitHub Action that scores repository health across 9 transparent dimensions and optionally updates the README.",
@@ -165,7 +178,7 @@
       "homepage": "https://pypi.org/project/drixl/",
       "language": "Python",
       "stars": 3,
-      "forks": 0,
+      "forks": 1,
       "topics": [
         "agent-communication",
         "cost-optimization",
@@ -366,19 +379,6 @@
       "topics": [],
       "updatedAt": "2026-04-15T00:04:19Z",
       "pushedAt": "2026-04-15T00:04:16Z"
-    },
-    {
-      "name": "E2ScreenRecorder",
-      "fullName": "SamoTech/E2ScreenRecorder",
-      "description": "Full-featured Enigma2 Screen Recorder plugin — Screenshots (PNG/JPEG/BMP) & Video (MP4/AVI) from /dev/fb0 framebuffer. Built-in WebIF. Python 2.7–3.12+. Zero mandatory deps. All STB SoC families.",
-      "url": "https://github.com/SamoTech/E2ScreenRecorder",
-      "homepage": null,
-      "language": "Python",
-      "stars": 1,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-04-14T15:59:51Z",
-      "pushedAt": "2026-04-14T15:59:47Z"
     },
     {
       "name": "AgentScope",

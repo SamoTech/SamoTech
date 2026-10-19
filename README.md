@@ -37,14 +37,15 @@ I am less interested in collecting technologies and more interested in using the
 
 | Project | Last Updated | Language | Stars |
 |---|---|---|---:|
-| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-10-12 | Python | 3 |
-| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-10-12 | Python | 1 |
+| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-10-19 | Python | 1 |
+| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-10-19 | Python | 3 |
+| [**E2ScreenRecorder**](https://github.com/SamoTech/E2ScreenRecorder) | 2026-10-17 | Python | 2 |
+| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-10-12 | TypeScript | 2 |
+| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-10-12 | HTML | 2 |
 | [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-10-11 | HTML | 2 |
 | [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-10-11 | JavaScript | 7 |
 | [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-10-10 | Python | 3 |
 | [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-10-09 | Python | 2 |
-| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-10-06 | TypeScript | 2 |
-| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-10-05 | HTML | 2 |
 | [**devlens**](https://github.com/SamoTech/devlens) | 2026-09-30 | Python | 2 |
 | [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-09-28 | Python | 3 |
 | [**Enigma2-Universal-Panel**](https://github.com/SamoTech/Enigma2-Universal-Panel) | 2026-09-19 | Shell | 0 |
@@ -56,7 +57,6 @@ I am less interested in collecting technologies and more interested in using the
 | [**Wazivo**](https://github.com/SamoTech/Wazivo) | 2026-06-10 | TypeScript | 2 |
 | [**ai-model-router**](https://github.com/SamoTech/ai-model-router) | 2026-06-10 | JavaScript | 0 |
 | [**AgentHub**](https://github.com/SamoTech/AgentHub) | 2026-06-10 | JavaScript | 2 |
-| [**auto-infra-doctor**](https://github.com/SamoTech/auto-infra-doctor) | 2026-06-03 | HTML | 1 |
 
 _The table is generated from `data/github.json`; repositories are sorted by GitHub `updated_at`, with forks and archived repositories excluded._
 
