@@ -37,17 +37,17 @@ I am less interested in collecting technologies and more interested in using the
 
 | Project | Last Updated | Language | Stars |
 |---|---|---|---:|
-| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-10-19 | Python | 1 |
-| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-10-19 | Python | 3 |
+| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-10-26 | Python | 3 |
+| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-10-26 | Python | 1 |
+| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-10-22 | TypeScript | 2 |
+| [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-10-20 | Python | 4 |
+| [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-10-19 | Python | 4 |
+| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-10-19 | HTML | 2 |
 | [**E2ScreenRecorder**](https://github.com/SamoTech/E2ScreenRecorder) | 2026-10-17 | Python | 2 |
-| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-10-12 | TypeScript | 2 |
-| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-10-12 | HTML | 2 |
 | [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-10-11 | HTML | 2 |
 | [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-10-11 | JavaScript | 7 |
-| [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-10-10 | Python | 3 |
 | [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-10-09 | Python | 2 |
 | [**devlens**](https://github.com/SamoTech/devlens) | 2026-09-30 | Python | 2 |
-| [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-09-28 | Python | 3 |
 | [**Enigma2-Universal-Panel**](https://github.com/SamoTech/Enigma2-Universal-Panel) | 2026-09-19 | Shell | 0 |
 | [**CI-Detective**](https://github.com/SamoTech/CI-Detective) | 2026-09-14 | Python | 0 |
 | [**samo-iptv-player**](https://github.com/SamoTech/samo-iptv-player) | 2026-08-25 | Dart | 0 |

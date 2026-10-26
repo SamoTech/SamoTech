@@ -1,17 +1,38 @@
 {
-  "generatedAt": "2026-10-19T13:19:59.124Z",
+  "generatedAt": "2026-10-26T13:06:30.264Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
     "bio": "I build practical AI systems, automation workflows, and scalable backend architectures.\r\n\r\nMy work focuses on production-ready agent orchestration, marketplace ",
     "avatar": "https://avatars.githubusercontent.com/u/5285768?v=4",
     "htmlUrl": "https://github.com/SamoTech",
-    "followers": 202,
-    "following": 248,
+    "followers": 211,
+    "following": 276,
     "publicRepos": 39,
     "createdAt": "2013-08-22T10:20:56Z"
   },
   "repositories": [
+    {
+      "name": "skills-tree",
+      "fullName": "SamoTech/skills-tree",
+      "description": "The universal, platform-agnostic skills and capability registry for AI agents — mapping capabilities, skills, implementations, dependencies, evidence, and platform adapters across agent ecosystems.",
+      "url": "https://github.com/SamoTech/skills-tree",
+      "homepage": "https://samotech.github.io/skills-tree/",
+      "language": "Python",
+      "stars": 3,
+      "forks": 2,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "markdown",
+        "md",
+        "memory-management",
+        "skills"
+      ],
+      "updatedAt": "2026-10-26T11:10:19Z",
+      "pushedAt": "2026-10-26T11:11:21Z"
+    },
     {
       "name": "RepoSource-Registry",
       "fullName": "SamoTech/RepoSource-Registry",
@@ -22,29 +43,67 @@
       "stars": 1,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-10-19T08:12:17Z",
-      "pushedAt": "2026-10-19T08:12:03Z"
+      "updatedAt": "2026-10-26T08:12:28Z",
+      "pushedAt": "2026-10-26T08:12:15Z"
     },
     {
-      "name": "skills-tree",
-      "fullName": "SamoTech/skills-tree",
-      "description": "The universal, platform-agnostic skills and capability registry for AI agents — mapping capabilities, skills, implementations, dependencies, evidence, and platform adapters across agent ecosystems.",
-      "url": "https://github.com/SamoTech/skills-tree",
-      "homepage": "https://samotech.github.io/skills-tree/",
+      "name": "ebay-store",
+      "fullName": "SamoTech/ebay-store",
+      "description": null,
+      "url": "https://github.com/SamoTech/ebay-store",
+      "homepage": "https://ebay-store.vercel.app",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-10-22T10:07:56Z",
+      "pushedAt": "2026-10-22T10:07:52Z"
+    },
+    {
+      "name": "DRIXL",
+      "fullName": "SamoTech/DRIXL",
+      "description": "Compressed inter-agent communication protocol for multi-agent AI systems. Cut token costs by 80% with dual format support (compact for production, structured XML for development).",
+      "url": "https://github.com/SamoTech/DRIXL",
+      "homepage": "https://pypi.org/project/drixl/",
       "language": "Python",
-      "stars": 3,
+      "stars": 4,
       "forks": 1,
       "topics": [
-        "agent",
-        "ai",
-        "ai-agents",
-        "markdown",
-        "md",
-        "memory-management",
-        "skills"
+        "agent-communication",
+        "cost-optimization",
+        "developer-tools",
+        "inter-agent",
+        "multi-agent",
+        "token-optimization"
       ],
-      "updatedAt": "2026-10-19T01:53:24Z",
-      "pushedAt": "2026-10-19T10:28:43Z"
+      "updatedAt": "2026-10-20T17:07:35Z",
+      "pushedAt": "2026-04-14T15:16:49Z"
+    },
+    {
+      "name": "stalker-to-m3u",
+      "fullName": "SamoTech/stalker-to-m3u",
+      "description": "Convert Stalker/Ministra IPTV portal (MAC-based) to M3U playlist — browser-based tool with full portal auth, channel filtering, and M3U export",
+      "url": "https://github.com/SamoTech/stalker-to-m3u",
+      "homepage": "https://stalker-to-m3u-eta.vercel.app",
+      "language": "Python",
+      "stars": 4,
+      "forks": 5,
+      "topics": [],
+      "updatedAt": "2026-10-19T22:22:29Z",
+      "pushedAt": "2026-05-09T03:17:21Z"
+    },
+    {
+      "name": "SamoTech",
+      "fullName": "SamoTech/SamoTech",
+      "description": "GitHub profile README",
+      "url": "https://github.com/SamoTech/SamoTech",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-10-19T13:20:07Z",
+      "pushedAt": "2026-10-19T13:20:02Z"
     },
     {
       "name": "E2ScreenRecorder",
@@ -58,32 +117,6 @@
       "topics": [],
       "updatedAt": "2026-10-17T16:01:39Z",
       "pushedAt": "2026-04-14T15:59:47Z"
-    },
-    {
-      "name": "ebay-store",
-      "fullName": "SamoTech/ebay-store",
-      "description": null,
-      "url": "https://github.com/SamoTech/ebay-store",
-      "homepage": "https://ebay-store.vercel.app",
-      "language": "TypeScript",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-10-12T17:06:24Z",
-      "pushedAt": "2026-10-12T17:06:20Z"
-    },
-    {
-      "name": "SamoTech",
-      "fullName": "SamoTech/SamoTech",
-      "description": "GitHub profile README",
-      "url": "https://github.com/SamoTech/SamoTech",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-10-12T15:29:15Z",
-      "pushedAt": "2026-10-12T15:29:10Z"
     },
     {
       "name": "samotech.github.io",
@@ -110,19 +143,6 @@
       "topics": [],
       "updatedAt": "2026-10-11T12:48:38Z",
       "pushedAt": "2026-10-11T12:48:33Z"
-    },
-    {
-      "name": "stalker-to-m3u",
-      "fullName": "SamoTech/stalker-to-m3u",
-      "description": "Convert Stalker/Ministra IPTV portal (MAC-based) to M3U playlist — browser-based tool with full portal auth, channel filtering, and M3U export",
-      "url": "https://github.com/SamoTech/stalker-to-m3u",
-      "homepage": "https://stalker-to-m3u-eta.vercel.app",
-      "language": "Python",
-      "stars": 3,
-      "forks": 4,
-      "topics": [],
-      "updatedAt": "2026-10-10T11:44:27Z",
-      "pushedAt": "2026-05-09T03:17:21Z"
     },
     {
       "name": "samotech-iptv-player",
@@ -169,26 +189,6 @@
       ],
       "updatedAt": "2026-09-30T11:15:00Z",
       "pushedAt": "2026-09-30T11:14:56Z"
-    },
-    {
-      "name": "DRIXL",
-      "fullName": "SamoTech/DRIXL",
-      "description": "Compressed inter-agent communication protocol for multi-agent AI systems. Cut token costs by 80% with dual format support (compact for production, structured XML for development).",
-      "url": "https://github.com/SamoTech/DRIXL",
-      "homepage": "https://pypi.org/project/drixl/",
-      "language": "Python",
-      "stars": 3,
-      "forks": 1,
-      "topics": [
-        "agent-communication",
-        "cost-optimization",
-        "developer-tools",
-        "inter-agent",
-        "multi-agent",
-        "token-optimization"
-      ],
-      "updatedAt": "2026-09-28T11:35:59Z",
-      "pushedAt": "2026-04-14T15:16:49Z"
     },
     {
       "name": "Enigma2-Universal-Panel",
