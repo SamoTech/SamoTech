@@ -1,17 +1,72 @@
 {
-  "generatedAt": "2026-10-26T13:06:30.264Z",
+  "generatedAt": "2026-11-02T15:57:21.201Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
     "bio": "I build practical AI systems, automation workflows, and scalable backend architectures.\r\n\r\nMy work focuses on production-ready agent orchestration, marketplace ",
     "avatar": "https://avatars.githubusercontent.com/u/5285768?v=4",
     "htmlUrl": "https://github.com/SamoTech",
-    "followers": 211,
-    "following": 276,
-    "publicRepos": 39,
+    "followers": 229,
+    "following": 293,
+    "publicRepos": 42,
     "createdAt": "2013-08-22T10:20:56Z"
   },
   "repositories": [
+    {
+      "name": "Radio",
+      "fullName": "SamoTech/Radio",
+      "description": "دليل بحث ذكي بيجمع أجهزة الاستقبال (SDR) ومحطات البث المتاحة أونلاين في مكان واحد، مع تحديث تلقائي مستمر للبيانات — موقع ثابت بالكامل (static PWA) بدون أي خادم خارجي.",
+      "url": "https://github.com/SamoTech/Radio",
+      "homepage": "https://samotech.github.io/Radio/",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "radio",
+        "radio-station",
+        "radio-station-app",
+        "radio-stations",
+        "radio-stream",
+        "radio-streaming",
+        "radio-streaming-application",
+        "radio-streaming-websites",
+        "radio-streams",
+        "sdr"
+      ],
+      "updatedAt": "2026-11-02T15:38:50Z",
+      "pushedAt": "2026-11-02T15:38:46Z"
+    },
+    {
+      "name": "RepoSource-Registry",
+      "fullName": "SamoTech/RepoSource-Registry",
+      "description": "RepoSource Registry — an automated, open dataset of notable GitHub repositories, continuously collected, normalized, categorized, and published for developers, researchers, AI agents, and other data consumers.",
+      "url": "https://github.com/SamoTech/RepoSource-Registry",
+      "homepage": "https://repo-source-registry.vercel.app",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-11-02T09:57:11Z",
+      "pushedAt": "2026-11-02T09:56:58Z"
+    },
+    {
+      "name": "mandala-art-android",
+      "fullName": "SamoTech/mandala-art-android",
+      "description": "Native Android mandala coloring app built with Kotlin and Jetpack Compose. Explore intricate patterns, customize colors, and save your artwork.",
+      "url": "https://github.com/SamoTech/mandala-art-android",
+      "homepage": "",
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "android",
+        "coloring-app",
+        "mandala",
+        "mandala-art"
+      ],
+      "updatedAt": "2026-11-02T06:40:27Z",
+      "pushedAt": "2026-11-02T06:40:22Z"
+    },
     {
       "name": "skills-tree",
       "fullName": "SamoTech/skills-tree",
@@ -30,21 +85,61 @@
         "memory-management",
         "skills"
       ],
-      "updatedAt": "2026-10-26T11:10:19Z",
-      "pushedAt": "2026-10-26T11:11:21Z"
+      "updatedAt": "2026-11-01T23:20:28Z",
+      "pushedAt": "2026-11-02T13:02:27Z"
     },
     {
-      "name": "RepoSource-Registry",
-      "fullName": "SamoTech/RepoSource-Registry",
-      "description": "RepoSource Registry — an automated, open dataset of notable GitHub repositories, continuously collected, normalized, categorized, and published for developers, researchers, AI agents, and other data consumers.",
-      "url": "https://github.com/SamoTech/RepoSource-Registry",
-      "homepage": "https://repo-source-registry.vercel.app",
-      "language": "Python",
-      "stars": 1,
+      "name": "samotech.github.io",
+      "fullName": "SamoTech/samotech.github.io",
+      "description": "Ossama Hashim — Personal Portfolio & Open Source Projects",
+      "url": "https://github.com/SamoTech/samotech.github.io",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 2,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-10-26T08:12:28Z",
-      "pushedAt": "2026-10-26T08:12:15Z"
+      "updatedAt": "2026-11-01T14:22:15Z",
+      "pushedAt": "2026-11-01T14:22:12Z"
+    },
+    {
+      "name": "stalker-to-m3u",
+      "fullName": "SamoTech/stalker-to-m3u",
+      "description": "Convert Stalker/Ministra IPTV portal (MAC-based) to M3U playlist — browser-based tool with full portal auth, channel filtering, and M3U export",
+      "url": "https://github.com/SamoTech/stalker-to-m3u",
+      "homepage": "https://stalker-to-m3u-eta.vercel.app",
+      "language": "Python",
+      "stars": 5,
+      "forks": 5,
+      "topics": [],
+      "updatedAt": "2026-10-29T07:34:02Z",
+      "pushedAt": "2026-05-09T03:17:21Z"
+    },
+    {
+      "name": "samotech-iptv-player",
+      "fullName": "SamoTech/samotech-iptv-player",
+      "description": "A modern IPTV player built by SamoTech — supports M3U playlists, EPG, and streaming protocols.",
+      "url": "https://github.com/SamoTech/samotech-iptv-player",
+      "homepage": "",
+      "language": "Python",
+      "stars": 3,
+      "forks": 0,
+      "topics": [
+        "iptv",
+        "iptv-free",
+        "iptv-m3u",
+        "iptv-player",
+        "iptv-playlist",
+        "stalker",
+        "stalker-portal",
+        "xtream",
+        "xtream-api",
+        "xtream-codes",
+        "xtream-codes-api",
+        "xtream-codes-playlist-generator",
+        "xtreamcode"
+      ],
+      "updatedAt": "2026-10-27T16:31:03Z",
+      "pushedAt": "2026-09-11T14:42:01Z"
     },
     {
       "name": "ebay-store",
@@ -56,8 +151,21 @@
       "stars": 2,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-10-22T10:07:56Z",
-      "pushedAt": "2026-10-22T10:07:52Z"
+      "updatedAt": "2026-10-26T14:38:43Z",
+      "pushedAt": "2026-10-26T14:38:38Z"
+    },
+    {
+      "name": "SamoTech",
+      "fullName": "SamoTech/SamoTech",
+      "description": "GitHub profile README",
+      "url": "https://github.com/SamoTech/SamoTech",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-10-26T13:06:37Z",
+      "pushedAt": "2026-10-26T13:06:32Z"
     },
     {
       "name": "DRIXL",
@@ -80,32 +188,6 @@
       "pushedAt": "2026-04-14T15:16:49Z"
     },
     {
-      "name": "stalker-to-m3u",
-      "fullName": "SamoTech/stalker-to-m3u",
-      "description": "Convert Stalker/Ministra IPTV portal (MAC-based) to M3U playlist — browser-based tool with full portal auth, channel filtering, and M3U export",
-      "url": "https://github.com/SamoTech/stalker-to-m3u",
-      "homepage": "https://stalker-to-m3u-eta.vercel.app",
-      "language": "Python",
-      "stars": 4,
-      "forks": 5,
-      "topics": [],
-      "updatedAt": "2026-10-19T22:22:29Z",
-      "pushedAt": "2026-05-09T03:17:21Z"
-    },
-    {
-      "name": "SamoTech",
-      "fullName": "SamoTech/SamoTech",
-      "description": "GitHub profile README",
-      "url": "https://github.com/SamoTech/SamoTech",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-10-19T13:20:07Z",
-      "pushedAt": "2026-10-19T13:20:02Z"
-    },
-    {
       "name": "E2ScreenRecorder",
       "fullName": "SamoTech/E2ScreenRecorder",
       "description": "Full-featured Enigma2 Screen Recorder plugin — Screenshots (PNG/JPEG/BMP) & Video (MP4/AVI) from /dev/fb0 framebuffer. Built-in WebIF. Python 2.7–3.12+. Zero mandatory deps. All STB SoC families.",
@@ -119,19 +201,6 @@
       "pushedAt": "2026-04-14T15:59:47Z"
     },
     {
-      "name": "samotech.github.io",
-      "fullName": "SamoTech/samotech.github.io",
-      "description": "Ossama Hashim — Personal Portfolio & Open Source Projects",
-      "url": "https://github.com/SamoTech/samotech.github.io",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-10-11T13:02:16Z",
-      "pushedAt": "2026-10-11T13:02:13Z"
-    },
-    {
       "name": "mikrotik-blocker",
       "fullName": "SamoTech/mikrotik-blocker",
       "description": "Production-ready web app to block websites on MikroTik routers using IP address lists — with DNS resolution, bulk input, RSC export, and optional API push",
@@ -143,33 +212,6 @@
       "topics": [],
       "updatedAt": "2026-10-11T12:48:38Z",
       "pushedAt": "2026-10-11T12:48:33Z"
-    },
-    {
-      "name": "samotech-iptv-player",
-      "fullName": "SamoTech/samotech-iptv-player",
-      "description": "A modern IPTV player built by SamoTech — supports M3U playlists, EPG, and streaming protocols.",
-      "url": "https://github.com/SamoTech/samotech-iptv-player",
-      "homepage": "",
-      "language": "Python",
-      "stars": 2,
-      "forks": 0,
-      "topics": [
-        "iptv",
-        "iptv-free",
-        "iptv-m3u",
-        "iptv-player",
-        "iptv-playlist",
-        "stalker",
-        "stalker-portal",
-        "xtream",
-        "xtream-api",
-        "xtream-codes",
-        "xtream-codes-api",
-        "xtream-codes-playlist-generator",
-        "xtreamcode"
-      ],
-      "updatedAt": "2026-10-09T20:44:58Z",
-      "pushedAt": "2026-09-11T14:42:01Z"
     },
     {
       "name": "devlens",

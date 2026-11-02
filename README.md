@@ -37,16 +37,18 @@ I am less interested in collecting technologies and more interested in using the
 
 | Project | Last Updated | Language | Stars |
 |---|---|---|---:|
-| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-10-26 | Python | 3 |
-| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-10-26 | Python | 1 |
-| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-10-22 | TypeScript | 2 |
+| [**Radio**](https://github.com/SamoTech/Radio) | 2026-11-02 | HTML | 0 |
+| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-11-02 | Python | 1 |
+| [**mandala-art-android**](https://github.com/SamoTech/mandala-art-android) | 2026-11-02 | Kotlin | 0 |
+| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-11-01 | Python | 3 |
+| [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-11-01 | HTML | 2 |
+| [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-10-29 | Python | 5 |
+| [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-10-27 | Python | 3 |
+| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-10-26 | TypeScript | 2 |
+| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-10-26 | HTML | 2 |
 | [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-10-20 | Python | 4 |
-| [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-10-19 | Python | 4 |
-| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-10-19 | HTML | 2 |
 | [**E2ScreenRecorder**](https://github.com/SamoTech/E2ScreenRecorder) | 2026-10-17 | Python | 2 |
-| [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-10-11 | HTML | 2 |
 | [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-10-11 | JavaScript | 7 |
-| [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-10-09 | Python | 2 |
 | [**devlens**](https://github.com/SamoTech/devlens) | 2026-09-30 | Python | 2 |
 | [**Enigma2-Universal-Panel**](https://github.com/SamoTech/Enigma2-Universal-Panel) | 2026-09-19 | Shell | 0 |
 | [**CI-Detective**](https://github.com/SamoTech/CI-Detective) | 2026-09-14 | Python | 0 |
@@ -55,8 +57,6 @@ I am less interested in collecting technologies and more interested in using the
 | [**Farik**](https://github.com/SamoTech/Farik) | 2026-07-29 | JavaScript | 3 |
 | [**PolicyForge**](https://github.com/SamoTech/PolicyForge) | 2026-06-10 | TypeScript | 0 |
 | [**Wazivo**](https://github.com/SamoTech/Wazivo) | 2026-06-10 | TypeScript | 2 |
-| [**ai-model-router**](https://github.com/SamoTech/ai-model-router) | 2026-06-10 | JavaScript | 0 |
-| [**AgentHub**](https://github.com/SamoTech/AgentHub) | 2026-06-10 | JavaScript | 2 |
 
 _The table is generated from `data/github.json`; repositories are sorted by GitHub `updated_at`, with forks and archived repositories excluded._
 
