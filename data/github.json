@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-02T15:57:21.201Z",
+  "generatedAt": "2026-11-09T16:23:34.213Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
     "bio": "I build practical AI systems, automation workflows, and scalable backend architectures.\r\n\r\nMy work focuses on production-ready agent orchestration, marketplace ",
     "avatar": "https://avatars.githubusercontent.com/u/5285768?v=4",
     "htmlUrl": "https://github.com/SamoTech",
-    "followers": 229,
-    "following": 293,
+    "followers": 239,
+    "following": 315,
     "publicRepos": 42,
     "createdAt": "2013-08-22T10:20:56Z"
   },
@@ -33,8 +33,21 @@
         "radio-streams",
         "sdr"
       ],
-      "updatedAt": "2026-11-02T15:38:50Z",
-      "pushedAt": "2026-11-02T15:38:46Z"
+      "updatedAt": "2026-11-09T16:05:24Z",
+      "pushedAt": "2026-11-09T16:05:19Z"
+    },
+    {
+      "name": "DownloadManagerApp",
+      "fullName": "SamoTech/DownloadManagerApp",
+      "description": "DownloadManagerApp",
+      "url": "https://github.com/SamoTech/DownloadManagerApp",
+      "homepage": null,
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-11-09T15:32:04Z",
+      "pushedAt": "2026-11-09T15:32:00Z"
     },
     {
       "name": "RepoSource-Registry",
@@ -46,26 +59,8 @@
       "stars": 1,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-11-02T09:57:11Z",
-      "pushedAt": "2026-11-02T09:56:58Z"
-    },
-    {
-      "name": "mandala-art-android",
-      "fullName": "SamoTech/mandala-art-android",
-      "description": "Native Android mandala coloring app built with Kotlin and Jetpack Compose. Explore intricate patterns, customize colors, and save your artwork.",
-      "url": "https://github.com/SamoTech/mandala-art-android",
-      "homepage": "",
-      "language": "Kotlin",
-      "stars": 0,
-      "forks": 0,
-      "topics": [
-        "android",
-        "coloring-app",
-        "mandala",
-        "mandala-art"
-      ],
-      "updatedAt": "2026-11-02T06:40:27Z",
-      "pushedAt": "2026-11-02T06:40:22Z"
+      "updatedAt": "2026-11-09T10:13:57Z",
+      "pushedAt": "2026-11-09T10:13:43Z"
     },
     {
       "name": "skills-tree",
@@ -75,7 +70,7 @@
       "homepage": "https://samotech.github.io/skills-tree/",
       "language": "Python",
       "stars": 3,
-      "forks": 2,
+      "forks": 3,
       "topics": [
         "agent",
         "ai",
@@ -85,8 +80,34 @@
         "memory-management",
         "skills"
       ],
-      "updatedAt": "2026-11-01T23:20:28Z",
-      "pushedAt": "2026-11-02T13:02:27Z"
+      "updatedAt": "2026-11-07T02:42:30Z",
+      "pushedAt": "2026-11-09T13:34:46Z"
+    },
+    {
+      "name": "ebay-store",
+      "fullName": "SamoTech/ebay-store",
+      "description": null,
+      "url": "https://github.com/SamoTech/ebay-store",
+      "homepage": "https://ebay-store.vercel.app",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-11-02T17:32:22Z",
+      "pushedAt": "2026-11-02T17:32:18Z"
+    },
+    {
+      "name": "SamoTech",
+      "fullName": "SamoTech/SamoTech",
+      "description": "GitHub profile README",
+      "url": "https://github.com/SamoTech/SamoTech",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-11-02T15:57:27Z",
+      "pushedAt": "2026-11-02T15:57:23Z"
     },
     {
       "name": "samotech.github.io",
@@ -109,7 +130,7 @@
       "homepage": "https://stalker-to-m3u-eta.vercel.app",
       "language": "Python",
       "stars": 5,
-      "forks": 5,
+      "forks": 6,
       "topics": [],
       "updatedAt": "2026-10-29T07:34:02Z",
       "pushedAt": "2026-05-09T03:17:21Z"
@@ -140,32 +161,6 @@
       ],
       "updatedAt": "2026-10-27T16:31:03Z",
       "pushedAt": "2026-09-11T14:42:01Z"
-    },
-    {
-      "name": "ebay-store",
-      "fullName": "SamoTech/ebay-store",
-      "description": null,
-      "url": "https://github.com/SamoTech/ebay-store",
-      "homepage": "https://ebay-store.vercel.app",
-      "language": "TypeScript",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-10-26T14:38:43Z",
-      "pushedAt": "2026-10-26T14:38:38Z"
-    },
-    {
-      "name": "SamoTech",
-      "fullName": "SamoTech/SamoTech",
-      "description": "GitHub profile README",
-      "url": "https://github.com/SamoTech/SamoTech",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-10-26T13:06:37Z",
-      "pushedAt": "2026-10-26T13:06:32Z"
     },
     {
       "name": "DRIXL",
@@ -256,7 +251,7 @@
       "forks": 0,
       "topics": [],
       "updatedAt": "2026-09-14T10:52:29Z",
-      "pushedAt": "2026-09-14T19:55:29Z"
+      "pushedAt": "2026-11-03T22:09:57Z"
     },
     {
       "name": "samo-iptv-player",

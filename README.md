@@ -37,15 +37,15 @@ I am less interested in collecting technologies and more interested in using the
 
 | Project | Last Updated | Language | Stars |
 |---|---|---|---:|
-| [**Radio**](https://github.com/SamoTech/Radio) | 2026-11-02 | HTML | 0 |
-| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-11-02 | Python | 1 |
-| [**mandala-art-android**](https://github.com/SamoTech/mandala-art-android) | 2026-11-02 | Kotlin | 0 |
-| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-11-01 | Python | 3 |
+| [**Radio**](https://github.com/SamoTech/Radio) | 2026-11-09 | HTML | 0 |
+| [**DownloadManagerApp**](https://github.com/SamoTech/DownloadManagerApp) | 2026-11-09 | Kotlin | 0 |
+| [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-11-09 | Python | 1 |
+| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-11-07 | Python | 3 |
+| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-11-02 | TypeScript | 2 |
+| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-11-02 | HTML | 2 |
 | [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-11-01 | HTML | 2 |
 | [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-10-29 | Python | 5 |
 | [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-10-27 | Python | 3 |
-| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-10-26 | TypeScript | 2 |
-| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-10-26 | HTML | 2 |
 | [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-10-20 | Python | 4 |
 | [**E2ScreenRecorder**](https://github.com/SamoTech/E2ScreenRecorder) | 2026-10-17 | Python | 2 |
 | [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-10-11 | JavaScript | 7 |
