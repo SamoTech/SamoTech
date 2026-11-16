@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-09T16:23:34.213Z",
+  "generatedAt": "2026-11-16T15:50:04.433Z",
   "profile": {
     "login": "SamoTech",
     "name": "Ossama Hashim",
     "bio": "I build practical AI systems, automation workflows, and scalable backend architectures.\r\n\r\nMy work focuses on production-ready agent orchestration, marketplace ",
     "avatar": "https://avatars.githubusercontent.com/u/5285768?v=4",
     "htmlUrl": "https://github.com/SamoTech",
-    "followers": 239,
-    "following": 315,
-    "publicRepos": 42,
+    "followers": 249,
+    "following": 323,
+    "publicRepos": 43,
     "createdAt": "2013-08-22T10:20:56Z"
   },
   "repositories": [
@@ -19,8 +19,8 @@
       "url": "https://github.com/SamoTech/Radio",
       "homepage": "https://samotech.github.io/Radio/",
       "language": "HTML",
-      "stars": 0,
-      "forks": 0,
+      "stars": 1,
+      "forks": 1,
       "topics": [
         "radio",
         "radio-station",
@@ -33,8 +33,8 @@
         "radio-streams",
         "sdr"
       ],
-      "updatedAt": "2026-11-09T16:05:24Z",
-      "pushedAt": "2026-11-09T16:05:19Z"
+      "updatedAt": "2026-11-12T16:06:01Z",
+      "pushedAt": "2026-11-16T09:51:35Z"
     },
     {
       "name": "DownloadManagerApp",
@@ -46,8 +46,88 @@
       "stars": 0,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-11-09T15:32:04Z",
-      "pushedAt": "2026-11-09T15:32:00Z"
+      "updatedAt": "2026-11-12T11:52:58Z",
+      "pushedAt": "2026-11-16T12:48:54Z"
+    },
+    {
+      "name": "DRIXL",
+      "fullName": "SamoTech/DRIXL",
+      "description": "Compressed inter-agent communication protocol for multi-agent AI systems. Cut token costs by 80% with dual format support (compact for production, structured XML for development).",
+      "url": "https://github.com/SamoTech/DRIXL",
+      "homepage": "https://pypi.org/project/drixl/",
+      "language": "Python",
+      "stars": 3,
+      "forks": 1,
+      "topics": [
+        "agent-communication",
+        "cost-optimization",
+        "developer-tools",
+        "inter-agent",
+        "multi-agent",
+        "token-optimization"
+      ],
+      "updatedAt": "2026-11-12T07:08:04Z",
+      "pushedAt": "2026-04-14T15:16:49Z"
+    },
+    {
+      "name": "SamoQueue",
+      "fullName": "SamoTech/SamoQueue",
+      "description": null,
+      "url": "https://github.com/SamoTech/SamoQueue",
+      "homepage": null,
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-11-12T06:56:35Z",
+      "pushedAt": "2026-11-12T09:49:17Z"
+    },
+    {
+      "name": "ebay-store",
+      "fullName": "SamoTech/ebay-store",
+      "description": null,
+      "url": "https://github.com/SamoTech/ebay-store",
+      "homepage": "https://ebay-store.vercel.app",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-11-11T16:43:18Z",
+      "pushedAt": "2026-11-15T09:23:27Z"
+    },
+    {
+      "name": "skills-tree",
+      "fullName": "SamoTech/skills-tree",
+      "description": "The universal, platform-agnostic skills and capability registry for AI agents — mapping capabilities, skills, implementations, dependencies, evidence, and platform adapters across agent ecosystems.",
+      "url": "https://github.com/SamoTech/skills-tree",
+      "homepage": "https://samotech.github.io/skills-tree/",
+      "language": "Python",
+      "stars": 4,
+      "forks": 3,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "markdown",
+        "md",
+        "memory-management",
+        "skills"
+      ],
+      "updatedAt": "2026-11-09T23:57:04Z",
+      "pushedAt": "2026-11-16T13:19:27Z"
+    },
+    {
+      "name": "SamoTech",
+      "fullName": "SamoTech/SamoTech",
+      "description": "GitHub profile README",
+      "url": "https://github.com/SamoTech/SamoTech",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-11-09T16:23:41Z",
+      "pushedAt": "2026-11-09T16:23:36Z"
     },
     {
       "name": "RepoSource-Registry",
@@ -60,54 +140,7 @@
       "forks": 0,
       "topics": [],
       "updatedAt": "2026-11-09T10:13:57Z",
-      "pushedAt": "2026-11-09T10:13:43Z"
-    },
-    {
-      "name": "skills-tree",
-      "fullName": "SamoTech/skills-tree",
-      "description": "The universal, platform-agnostic skills and capability registry for AI agents — mapping capabilities, skills, implementations, dependencies, evidence, and platform adapters across agent ecosystems.",
-      "url": "https://github.com/SamoTech/skills-tree",
-      "homepage": "https://samotech.github.io/skills-tree/",
-      "language": "Python",
-      "stars": 3,
-      "forks": 3,
-      "topics": [
-        "agent",
-        "ai",
-        "ai-agents",
-        "markdown",
-        "md",
-        "memory-management",
-        "skills"
-      ],
-      "updatedAt": "2026-11-07T02:42:30Z",
-      "pushedAt": "2026-11-09T13:34:46Z"
-    },
-    {
-      "name": "ebay-store",
-      "fullName": "SamoTech/ebay-store",
-      "description": null,
-      "url": "https://github.com/SamoTech/ebay-store",
-      "homepage": "https://ebay-store.vercel.app",
-      "language": "TypeScript",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-11-02T17:32:22Z",
-      "pushedAt": "2026-11-02T17:32:18Z"
-    },
-    {
-      "name": "SamoTech",
-      "fullName": "SamoTech/SamoTech",
-      "description": "GitHub profile README",
-      "url": "https://github.com/SamoTech/SamoTech",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 2,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-11-02T15:57:27Z",
-      "pushedAt": "2026-11-02T15:57:23Z"
+      "pushedAt": "2026-11-16T10:13:40Z"
     },
     {
       "name": "samotech.github.io",
@@ -161,26 +194,6 @@
       ],
       "updatedAt": "2026-10-27T16:31:03Z",
       "pushedAt": "2026-09-11T14:42:01Z"
-    },
-    {
-      "name": "DRIXL",
-      "fullName": "SamoTech/DRIXL",
-      "description": "Compressed inter-agent communication protocol for multi-agent AI systems. Cut token costs by 80% with dual format support (compact for production, structured XML for development).",
-      "url": "https://github.com/SamoTech/DRIXL",
-      "homepage": "https://pypi.org/project/drixl/",
-      "language": "Python",
-      "stars": 4,
-      "forks": 1,
-      "topics": [
-        "agent-communication",
-        "cost-optimization",
-        "developer-tools",
-        "inter-agent",
-        "multi-agent",
-        "token-optimization"
-      ],
-      "updatedAt": "2026-10-20T17:07:35Z",
-      "pushedAt": "2026-04-14T15:16:49Z"
     },
     {
       "name": "E2ScreenRecorder",

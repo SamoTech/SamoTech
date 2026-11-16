@@ -37,16 +37,17 @@ I am less interested in collecting technologies and more interested in using the
 
 | Project | Last Updated | Language | Stars |
 |---|---|---|---:|
-| [**Radio**](https://github.com/SamoTech/Radio) | 2026-11-09 | HTML | 0 |
-| [**DownloadManagerApp**](https://github.com/SamoTech/DownloadManagerApp) | 2026-11-09 | Kotlin | 0 |
+| [**Radio**](https://github.com/SamoTech/Radio) | 2026-11-12 | HTML | 1 |
+| [**DownloadManagerApp**](https://github.com/SamoTech/DownloadManagerApp) | 2026-11-12 | Kotlin | 0 |
+| [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-11-12 | Python | 3 |
+| [**SamoQueue**](https://github.com/SamoTech/SamoQueue) | 2026-11-12 | Python | 0 |
+| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-11-11 | TypeScript | 2 |
+| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-11-09 | Python | 4 |
+| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-11-09 | HTML | 2 |
 | [**RepoSource-Registry**](https://github.com/SamoTech/RepoSource-Registry) | 2026-11-09 | Python | 1 |
-| [**skills-tree**](https://github.com/SamoTech/skills-tree) | 2026-11-07 | Python | 3 |
-| [**ebay-store**](https://github.com/SamoTech/ebay-store) | 2026-11-02 | TypeScript | 2 |
-| [**SamoTech**](https://github.com/SamoTech/SamoTech) | 2026-11-02 | HTML | 2 |
 | [**samotech.github.io**](https://github.com/SamoTech/samotech.github.io) | 2026-11-01 | HTML | 2 |
 | [**stalker-to-m3u**](https://github.com/SamoTech/stalker-to-m3u) | 2026-10-29 | Python | 5 |
 | [**samotech-iptv-player**](https://github.com/SamoTech/samotech-iptv-player) | 2026-10-27 | Python | 3 |
-| [**DRIXL**](https://github.com/SamoTech/DRIXL) | 2026-10-20 | Python | 4 |
 | [**E2ScreenRecorder**](https://github.com/SamoTech/E2ScreenRecorder) | 2026-10-17 | Python | 2 |
 | [**mikrotik-blocker**](https://github.com/SamoTech/mikrotik-blocker) | 2026-10-11 | JavaScript | 7 |
 | [**devlens**](https://github.com/SamoTech/devlens) | 2026-09-30 | Python | 2 |
@@ -56,7 +57,6 @@ I am less interested in collecting technologies and more interested in using the
 | [**memoryos**](https://github.com/SamoTech/memoryos) | 2026-08-02 | Python | 2 |
 | [**Farik**](https://github.com/SamoTech/Farik) | 2026-07-29 | JavaScript | 3 |
 | [**PolicyForge**](https://github.com/SamoTech/PolicyForge) | 2026-06-10 | TypeScript | 0 |
-| [**Wazivo**](https://github.com/SamoTech/Wazivo) | 2026-06-10 | TypeScript | 2 |
 
 _The table is generated from `data/github.json`; repositories are sorted by GitHub `updated_at`, with forks and archived repositories excluded._
 
